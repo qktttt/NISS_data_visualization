@@ -1,0 +1,195 @@
+/*
+ * Charts.css v0.9.0 (https://ChartsCSS.org/)
+ * Copyright 2020 Rami Yushuvaev
+ * Licensed under MIT
+ */
+.charts-css {
+  --color-1: #DA5526;
+  --color-2: #FEBC38;
+  --color-3: #27647B;
+  --color-4: #D8C6B4;
+  --color-5: rgba(90, 165, 255, 0.75);
+  --color-6: rgba(170, 90, 240, 0.75);
+  --color-7: rgba(180, 180, 180, 0.75);
+  --color-8: rgba(110, 110, 110, 0.75);
+  --color-9: rgba(170, 150, 110, 0.75);
+  --color-10: rgba(130, 50, 20, 0.75);
+  --chart-bg-color: #f5f5f5;
+  --heading-size: 0px;
+  --primary-axis-color: rgba(0, 0, 0, 1);
+  --primary-axis-style: solid;
+  --primary-axis-width: 1px;
+  --secondary-axes-color: rgba(0, 0, 0, .15);
+  --secondary-axes-style: solid;
+  --secondary-axes-width: 1px;
+  --data-axes-color: rgba(0, 0, 0, .15);
+  --data-axes-style: solid;
+  --data-axes-width: 1px;
+  --legend-border-color: rgb(200, 200, 200);
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+/*
+ * Chart legend
+ */
+.charts-css.legend {
+  padding: 1rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.charts-css.legend li {
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.charts-css.legend li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-margin-end: .5rem;
+          margin-inline-end: .5rem;
+   border-width:0px;
+  border-style: solid;
+}
+
+.charts-css.legend_2{
+  padding: 1rem; 
+  list-style: none;
+  font-size: 1rem;
+}
+
+.charts-css.legend_2 li {
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.charts-css.legend_2 li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-margin-end: .5rem;
+          margin-inline-end: .5rem;
+  border-width:0px;
+  border-style: solid;
+}
+
+.charts-css.legend li:nth-child(1)::before {
+  background-color: var(--color-1, transparent);
+  border-color: var(--border-color-1, var(--border-color, #000));
+}
+
+.charts-css.legend li:nth-child(2)::before {
+  background-color: var(--color-2, transparent);
+  border-color: var(--border-color-2, var(--border-color, #000));
+}
+
+.charts-css.legend li:nth-child(3)::before {
+  background-color: var(--color-3, transparent);
+  border-color: var(--border-color-3, var(--border-color, #000));
+}
+
+.charts-css.legend li:nth-child(4)::before {
+  background-color: var(--color-4, transparent);
+  border-color: var(--border-color-4, var(--border-color, #000));
+}
+
+
+.charts-css.legend_2 li:nth-child(1)::before {
+  background-color: #27647B;
+  border-color: var(--border-color-1, var(--border-color, #000));
+}
+
+.charts-css.legend_2 li:nth-child(2)::before {
+  background-color: #F6893D;
+  border-color: var(--border-color-2, var(--border-color, #000));
+}
+
+ 
+
+.charts-css:not(.legend-inline) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.charts-css.legend-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.charts-css.legend-inline li {
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
+}
+
+.charts-css.legend-circle li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.charts-css.legend-ellipse li::before {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.charts-css.legend-square li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+}
+
+.charts-css.legend-rhombus li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+  -webkit-transform: rotate(45deg) scale(0.85);
+          transform: rotate(45deg) scale(0.85);
+}
+
+.charts-css.legend-rectangle li::before {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 3px;
+}
+
+.charts-css.legend-line li::before {
+  width: 2rem;
+  height: 3px;
+  border-radius: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}

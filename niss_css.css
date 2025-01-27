@@ -1,0 +1,367 @@
+
+.container_fluid{
+  height: 1500px;
+}
+
+.modalText{
+  font-size:14px;
+  font-weight:normal;
+  color: black;
+}
+.modal-title{
+  font-weight: bold;
+}
+.modal-content{
+  width:1400px;
+}
+.modal-dialog{
+  width:1400px;
+}
+
+
+#warningMessage{
+  position:absolute;
+  left:380px;
+  top:880px;
+  font-size: 16px;
+  font-weight:bold;
+  color: red;
+}
+
+#legendPage1{
+  position:absolute;
+  left:1760px;
+  top:250px;
+  height: 100px;
+  width:150px;
+}
+
+.infoIcon{
+  z-index: 1;
+  position: absolute;
+  left:1720px;
+  top:18%;
+}
+ 
+
+.navbar{
+  background-color:#FEBC38;
+  margin-bottom: 5px;
+}
+
+.themeColor{
+  color:#F6893D;
+}
+
+.textOutputBox{
+  background-color:#FFFFEE;
+  height:325px;
+  width: 100%;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+#firstPageResult{
+  font-size: 14px;
+}
+
+.DoesMatterTheme{
+  color:#27647B;
+}
+
+.navbar-brand{
+  color: #ffffff !important;
+  font-size: 30px;
+}
+
+p.MainFont {
+  color: #27647B;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+p.groupTitle_1{
+  font-size: 25px;
+  color:#27647B!important;
+  font-weight: bold;
+}
+
+p.groupTitle_2{
+  font-size: 25px;
+  color:#F6893D!important;
+  font-weight: bold;
+}
+
+.radio{
+  font-size: 18px;
+  padding-top: 3px;
+  padding-bottom: -1px;
+}
+
+.navbar-nav>li {
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+.navbar-nav>li.active>a {
+  background-color:#FFAA00 !important; 
+}
+
+
+
+.plot{
+  width: 80%;
+  margin: 0 auto;
+  resize: None;
+}
+
+h1 {
+  margin-top: 0px !important;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.inputColumn{
+  text-align: left;
+  padding-top:5px;
+}
+
+.underline {
+  text-decoration: underline solid #FEBC38 3px;
+}
+
+.plot-container{
+  border-left: 0.5px solid lightgrey;
+}
+
+.graphOutput{
+  width: 8;
+}
+
+.svg-container{
+  height: 800px;
+  width:1400px;
+}
+
+
+.compareGroup{
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#educationSub{
+  margin-top:-10px;
+}
+body{
+  font-family: Helvetica;
+}
+
+input[type='radio']:checked:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #F6893D;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+
+input[type='radio']:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+  
+
+.checkbox input[type=checkbox]:checked:after {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      top: -4px;
+      left: -4px;
+      position: absolute;
+      background-color: #F6893D;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid white;
+}
+
+.checkbox input[type=checkbox]:before {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      top: -4px;
+      left: -4px;
+      position: absolute;
+      background-color: #d1d3d1;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid white;
+  }
+    
+
+.bottomLine{
+  display: block;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.plot2{ 
+  width: 80%;
+  height: 400px; 
+  resize: None; 
+  margin-bottom: -20px!important;
+}
+
+.secondPageGraphFrame {
+  width: 75%;
+  height: 500px;
+}
+
+
+.singlePlot{
+  margin: auto;
+  width: 1200px;
+  height: 600px;
+  border: 3px solid white;
+  resize: None;
+}
+
+
+.hist1{
+  padding-top: 30px;
+  width: 35%;
+  height: 250px;
+  resize: None;
+}
+
+
+.hist2{
+  padding-top: 30px;
+  width: 35%;
+  height: 250px;
+  resize: None;
+}
+
+/*Second level page 1 and second  evel page 2 decorator*/
+.thinTextArea {
+  height: 160px;
+  width: 1000px; 
+  margin-top: -45px;  
+  margin-bottom: -28px;  
+  font-size: 20px;
+  padding-top:  10px;
+  border-top: -5px;
+  border-left: 0.5px solid lightgrey;
+}
+
+#thinBar {
+  padding-left:30px;
+  background-color:#FFFFEE;
+  font-size:19px;
+}
+
+#thinBar_2{
+  padding-left:30px;
+  background-color:#FFFFEE;
+  font-size:19px;
+}
+
+.linePlotLegend {  
+  height: 300px;
+  width: 400px;
+  right: 50px;
+  padding-bottom: -50px;
+  border-style: none!important;
+}
+
+.histPlotLegend {  
+  height: 250px;
+  width: 400px;
+  right: 50px;
+  border-style: none!important;
+}
+
+.sqrTextArea { 
+  height: 200px;
+  width: 300px;  
+}
+
+ 
+
+
+#hist2 {
+  margin-top:-15px;
+  margin-padding:-50px;
+}
+
+.errorBarCheckInputText {
+  font-size: 18px;
+}
+
+p.groupTitle_1{
+  font-size: 25px;
+  color:#27647B!important;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+p.groupTitle_2{
+  font-size: 25px;
+  color:#F6893D!important;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+p.groupTitle_3{
+  font-size: 25px; 
+  color:#F6893D!important;
+  font-weight: bold; 
+}
+ 
+
+.control-label {
+  font-size:16px;
+  margin-bottom: -5px; 
+  margin-top: -5px;
+}
+
+#warningMessage_2{
+  z-index: 10000000; 
+  font-size:14px;
+  font-weight:bold;
+  left: 50px;
+  top:5px;
+  color: red;
+}
+
+#warningMessage_3 {
+  z-index: 10000000; 
+  font-size:14px;
+  font-weight:bold;
+  left: 50px;
+  top:5px;
+  color: red;
+}
+
+.iconPlace {
+  padding:30px;
+}
+
+.modebar{ display: none !important; }
+
+ 
