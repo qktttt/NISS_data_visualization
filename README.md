@@ -1,12 +1,3 @@
----
-title: "NISS Data Visualization Contest"
-excerpt: Create an interactive data visualization using R-Shiny for the income data in the U.S., from 1990 to 2019, under different education and gender groups."<br/>
-collection: portfolio
-teammates:
-- Mingshi Cui (Rutgers University, Department of Statistics)
-- Litong Zhang 
----
-
 **[Link to the visulization portal](https://best-data-visualization.shinyapps.io/niss_visualization/)**
 
 **Teammates: Mingshi Cui (Rutgers University), Litong Zhang (formerly at Texas A&M University)**
